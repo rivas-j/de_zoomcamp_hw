@@ -1,4 +1,4 @@
-## Week 1 Homework Solutions - jrivas404@gmail.com
+# Week 1 Homework Solutions - jrivas404@gmail.com
 
 Please see my solutions to week 1 homework assignments below, with screenshots of my SQL Query Results
 
@@ -137,7 +137,40 @@ ORDER BY 3 DESC
 ![Question 6 Query](wk_1/hw_6.png)
 
 
-## Terraform apply - HW Part B
+# Terraform apply - HW Part B
+
+In this homework we'll prepare the environment by creating resources in GCP with Terraform.
+
+In your VM on GCP install Terraform. Copy the files from the course repo
+[here](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_1_basics_n_setup/1_terraform_gcp/terraform) to your VM.
+
+Modify the files as necessary to create a GCP Bucket and Big Query Dataset.
+
+
+## Question 1. Creating Resources
+
+After updating the main.tf and variable.tf files run:
+
+```
+terraform apply
+```
+
+Paste the output of this command into the homework submission form.
+
+```
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+google_bigquery_dataset.dataset: Creating...
+google_storage_bucket.data-lake-bucket: Creating...
+google_bigquery_dataset.dataset: Creation complete after 2s [id=projects/still-descent-376319/datasets/trips_data_all]
+google_storage_bucket.data-lake-bucket: Creation complete after 2s [id=dtc_data_lake_still-descent-376319]
+
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+```
 
 ![terraform apply solution](wk_1/tf.png)
 
