@@ -135,3 +135,9 @@ GROUP BY 1,2
 ORDER BY 3 DESC
 ```
 ![Question 6 Query](wk_1/hw_6.png)
+
+
+## Terraform apply - HW Part B
+
+![terraform apply solution](wk_1/tf.png)
+
