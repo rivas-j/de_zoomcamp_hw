@@ -1,4 +1,4 @@
-## Week 2 Homework - jrivas404@gmail.com
+# Week 2 Homework - jrivas404@gmail.com
 
 The goal of this homework is to familiarise users with workflow orchestration and observation. 
 
