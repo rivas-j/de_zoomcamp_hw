@@ -47,7 +47,7 @@ Create a core model for the stg_fhv_tripdata joining with dim_zones.
 Similar to what we've done in fact_trips, keep only records with known pickup and dropoff locations entries for pickup and dropoff locations. 
 Run it via the CLI without limits (is_test_run: false) and filter records with pickup time in year 2019.
 
-- 32998722
+- 22998722
 
 
 ### Question 5: 
