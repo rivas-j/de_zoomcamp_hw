@@ -1,4 +1,4 @@
-## Week 5 Homework
+## Week 6 Homework
 
 In this homework we'll put what we learned about Spark
 in practice.
