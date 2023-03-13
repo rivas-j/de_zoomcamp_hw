@@ -7,3 +7,4 @@ Below are bookmarks for each of my weekly Homework Submissions
 - [Week 3](wk_3_solutions.md)
 - [Week 4](wk_4_solutions.md)
 - [Week 5](wk_5_solutions.md)
+- [Week 6](wk_6_solutions.md)
